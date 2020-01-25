@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="Background" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -37,18 +37,27 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                <p style={{ marginBottom: '20px' }} className="about-wrapper__info-text">
+                  I'm currently an Engineer at{' '}
+                  <a
+                    className=" text-white font-weight-bold"
+                    href="https://dmspro.vn"
+                    target="_blank"
+                  >
+                    DMSpro
+                  </a>{' '}
+                  building apps for the web with some awesome people. I started my journey as a
+                  technology consultant and as I dwell deeper into the technology world, I decided to make a
+                  switch and become a software enginner!
                 </p>
-                <p className="about-wrapper__info-text">
+                <p style={{ marginBottom: '20px' }} className="about-wrapper__info-text">
                   {paragraphTwo ||
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                <p style={{ marginBottom: '20px' }} className="about-wrapper__info-text">
+                  <b>When I'm not in front of a computer screen</b>, I'm probably playing ball, hosting board game nights, or off hiking on some wild mountain.
                 </p>
-                {resume && (
+                {/* {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -59,7 +68,7 @@ const About = () => {
                       Resume
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>

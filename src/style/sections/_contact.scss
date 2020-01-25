@@ -34,3 +34,15 @@
     }
   }
 }
+
+.arrow-move:hover{
+  cursor: pointer;
+  .arrow{
+    margin-left: 20px !important;
+    transition: all ease-in-out 0.5s;
+  }
+}
+
+.buton:hover{
+  cursor: auto;
+}
