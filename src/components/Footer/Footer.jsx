@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 
-
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;

@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
-import resume from '../images/Resume.jpg'
+import resume from '../images/Resume.jpg';
 import resume1 from '../Duong_Nguyen_Resume.pdf';
 import { Document } from 'react-pdf';
 
@@ -23,7 +23,7 @@ export default () => {
         src="https://drive.google.com/file/d/1UMUf2C-roB8Q1RExsUC_LKEfk_hFtTxQ/preview"
         width="100%"
         height="100%"
-      ></iframe>
+      />
     </div>
   );
 };

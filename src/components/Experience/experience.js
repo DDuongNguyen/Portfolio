@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
-import PortfolioContext from '../../context/context';
 import Fade from 'react-reveal/Fade';
+import PortfolioContext from '../../context/context';
 import { githubButtons } from '../../mock/data';
 
 const Experience = () => {
@@ -185,7 +185,7 @@ const Experience = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume mb-5"
-              href='/resume'
+              href="/resume"
             >
               View My Resume
             </a>

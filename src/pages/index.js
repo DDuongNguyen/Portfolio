@@ -14,7 +14,10 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title || 'Duong Nguyen'}</title>
         <html lang={lang || 'en'} />
-        <meta name="a website about Duong" content={description || 'Duong Nguyen software developer Website'} />
+        <meta
+          name="a website about Duong"
+          content={description || 'Duong Nguyen software developer Website'}
+        />
       </Helmet>
       <App />
     </>

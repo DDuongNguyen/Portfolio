@@ -4,8 +4,8 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-import Skills from './Skills/skills'
-import Experience from './Experience/experience'
+import Skills from './Skills/skills';
+import Experience from './Experience/experience';
 
 import { PortfolioProvider } from '../context/context';
 

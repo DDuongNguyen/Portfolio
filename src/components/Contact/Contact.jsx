@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
+import { FaArrowRight } from 'react-icons/fa';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import { FaArrowRight } from 'react-icons/fa';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -410,26 +410,26 @@ const Contact = () => {
 
 export default Contact;
 
-      // <Container>
-      //   <Title title="Contact" />
-      //   <Fade bottom duration={1000} delay={800} distance="30px">
-      //     <div className="contact-wrapper">
-      //       <p className="contact-wrapper__text">
-      //         {cta || 'Would you like to work with me? Awesome!'}
-      //       </p>
-      // //       <a
-      // <div className='col-12 text-left'>
-      //   <button type='button' style={{color:'white', borderColor:'white'}} className='btn active btn-lg btn-outline-* mr-1 text-capitalize'>css</button>
-      //   <button type='button' style={{color:'white', borderColor:'white'}} className='btn active btn-lg btn-outline-* mr-1 text-capitalize'>html</button>
-      //   <button type='button' style={{color:'white', borderColor:'white'}} className='btn active btn-lg btn-outline-* mr-1 text-capitalize'>js</button>
-      // </div>
-      //         target="_blank"
-      //         rel="noopener noreferrer"
-      //         className="cta-btn cta-btn--resume"
-      //         href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-      //       >
-      //         {btn || "Let's Talk"}
-      //       </a>
-      //     </div>
-      //   </Fade>
-      // </Container>
+// <Container>
+//   <Title title="Contact" />
+//   <Fade bottom duration={1000} delay={800} distance="30px">
+//     <div className="contact-wrapper">
+//       <p className="contact-wrapper__text">
+//         {cta || 'Would you like to work with me? Awesome!'}
+//       </p>
+// //       <a
+// <div className='col-12 text-left'>
+//   <button type='button' style={{color:'white', borderColor:'white'}} className='btn active btn-lg btn-outline-* mr-1 text-capitalize'>css</button>
+//   <button type='button' style={{color:'white', borderColor:'white'}} className='btn active btn-lg btn-outline-* mr-1 text-capitalize'>html</button>
+//   <button type='button' style={{color:'white', borderColor:'white'}} className='btn active btn-lg btn-outline-* mr-1 text-capitalize'>js</button>
+// </div>
+//         target="_blank"
+//         rel="noopener noreferrer"
+//         className="cta-btn cta-btn--resume"
+//         href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+//       >
+//         {btn || "Let's Talk"}
+//       </a>
+//     </div>
+//   </Fade>
+// </Container>

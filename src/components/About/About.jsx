@@ -47,15 +47,16 @@ const About = () => {
                     DMSpro
                   </a>{' '}
                   building apps for the web with some awesome people. I started my journey as a
-                  technology consultant and as I dwell deeper into the technology world, I decided to make a
-                  switch and become a software enginner!
+                  technology consultant and as I dwell deeper into the technology world, I decided
+                  to make a switch and become a software enginner!
                 </p>
                 <p style={{ marginBottom: '20px' }} className="about-wrapper__info-text">
                   {paragraphTwo ||
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
                 <p style={{ marginBottom: '20px' }} className="about-wrapper__info-text">
-                  <b>When I'm not in front of a computer screen</b>, I'm probably playing ball, hosting board game nights, or off hiking on some wild mountain.
+                  <b>When I'm not in front of a computer screen</b>, I'm probably playing ball,
+                  hosting board game nights, or off hiking on some wild mountain.
                 </p>
                 {/* {resume && (
                   <span className="d-flex mt-3">
