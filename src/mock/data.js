@@ -19,12 +19,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'me.jpeg',
-  paragraphOne: "",
+  paragraphOne: '',
 
   paragraphTwo:
     'As a software engineer, I enjoy bridging the gap between new technology and the existing archaic solutions — combining my technical knowledge with my passion to create a beautiful and user-friendly product. My goal is to build projects that can bring people closer to their goals with applications that are scalable and efficient under the hood.',
 
-  paragraphThree: "",
+  paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
