@@ -27,7 +27,7 @@ const Experience = () => {
               <h1 className="font-weight-bolder text-xl-right text-lg-right mb-5">Experience</h1>
             </Fade>
           </div>
-          <div className="col-xl-8 col-lg-8 col-12 mb-5 row pr-sm-0 pr-md-0">
+          <div className="col-xl-8 col-lg-8 col-12 mb-5 row pr-sm-0 pr-md-0 ml-0">
             <div className="col-12 row mb-5">
               <div className="col-12 row">
                 <div className="col-6 text-left text-capitalize font-weight-bold">
