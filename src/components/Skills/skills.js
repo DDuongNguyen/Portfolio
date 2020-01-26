@@ -25,16 +25,14 @@ const Projects = () => {
   return (
     <section id="projects">
       <Container>
-        <div className="project-wrapper row mb-2">
+        <div className="project-wrapper row ml-0 mb-2">
           <Fade left duration={1000} delay={600} distance="30px">
             <div
-              className="col-4 mr-5"
+              className="col-xl-4 col-lg-4 col-12 text-uppercase text-xl-right text-lg-right mb-5"
               style={{
                 flexShrink: 0,
                 width: '200px',
                 color: '#007bff',
-                textTransform: 'uppercase',
-                textAlign: 'right',
                 letterSpacing: '2px',
               }}
             >
@@ -42,13 +40,15 @@ const Projects = () => {
             </div>
           </Fade>
 
-          <div className="col-8 row" style={{ fontSize: '1.5rem' }}>
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+          <div className="col-xl-8 col-lg-8 col-12 row ml-0" style={{ fontSize: '1.5rem' }}>
+            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <Fade top duration={1000} delay={600} distance="30px">
-                <h3 className="text-left text-uppercase font-weight-bold">LANGUAGES</h3>
+                <h3 className="text-xl-left text-lg-left text-uppercase font-weight-bold">
+                  LANGUAGES
+                </h3>
               </Fade>
               <Fade right duration={1000} delay={600} distance="30px">
-                <ul className="list-unstyled mb-2 text-left">
+                <ul className="list-unstyled mb-2 text-xl-left text-lg-left">
                   <li className="mb-2 font-weight-light text-capitalize">JavaScript (ES6)</li>
                   <li className="mb-2 font-weight-light text-capitalize">Ruby</li>
                   <li className="mb-2 font-weight-light text-capitalize">Python</li>
@@ -58,12 +58,14 @@ const Projects = () => {
                 </ul>
               </Fade>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <Fade top duration={1000} delay={600} distance="30px">
-                <h3 className="text-left text-uppercase font-weight-bold">FRAMEWORKS</h3>
+                <h3 className="text-xl-left text-lg-left text-uppercase font-weight-bold">
+                  FRAMEWORKS
+                </h3>
               </Fade>
               <Fade right duration={1000} delay={600} distance="30px">
-                <ul className="list-unstyled mb-2 text-left">
+                <ul className="list-unstyled mb-2 text-xl-left text-lg-left">
                   <li className="mb-2 font-weight-light text-capitalize">React</li>
                   <li className="mb-2 font-weight-light text-capitalize">Flask</li>
                   <li className="mb-2 font-weight-light text-capitalize">Rails</li>
@@ -72,12 +74,12 @@ const Projects = () => {
                 </ul>
               </Fade>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <Fade top duration={1000} delay={600} distance="30px">
-                <h3 className="text-left text-uppercase font-weight-bold">TOOLS</h3>
+                <h3 className="text-xl-left text-lg-left text-uppercase font-weight-bold">TOOLS</h3>
               </Fade>
               <Fade right duration={1000} delay={600} distance="30px">
-                <ul className="list-unstyled mb-2 text-left">
+                <ul className="list-unstyled mb-2 text-xl-left text-lg-left">
                   <li className="mb-2 font-weight-light text-capitalize">Bash</li>
                   <li className="mb-2 font-weight-light text-capitalize">Git, Github & GitLab</li>
                   <li className="mb-2 font-weight-light text-capitalize">Docker</li>

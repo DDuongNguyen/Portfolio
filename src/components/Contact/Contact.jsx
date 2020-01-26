@@ -12,9 +12,9 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <div className="project-wrapper mt-5 mb-5 row" style={{ fontSize: '1.5rem' }}>
+        <div className="project-wrapper mt-5 mb-5 row no-gutters" style={{ fontSize: '1.5rem' }}>
           <div
-            className="col-4 mr-5"
+            className="col-lg-4 col-xl-4 col-12 "
             style={{
               flexShrink: 0,
               width: '200px',
@@ -24,10 +24,10 @@ const Contact = () => {
             }}
           >
             <Fade top duration={1000} delay={600} distance="30px">
-              <h1 className="font-weight-bolder text-right">Other Projects</h1>
+              <h1 className="font-weight-bolder text-xl-right text-lg-right mb-5">Other Projects</h1>
             </Fade>
           </div>
-          <div className="col-8 mb-5 row">
+          <div className="col-xl-8 col-lg-8 col-12 mb-5 row ml-3">
             <div className="col-12 row mb-5">
               <div className="col-12 row">
                 <div className="col-12 text-left text-capitalize font-weight-bold">
