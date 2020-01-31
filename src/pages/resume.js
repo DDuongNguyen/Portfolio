@@ -14,9 +14,9 @@ export default () => {
     <div style={{ height: '100vh' }}>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
+        <title>{title || 'Duong"s Resume'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta name="description" content={description || 'Duong"s Resume'} />
       </Helmet>
       {/* <Document file='' /> */}
       <iframe
