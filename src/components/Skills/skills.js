@@ -82,9 +82,11 @@ const Projects = () => {
                 <ul className="list-unstyled mb-2 text-xl-left text-lg-left">
                   <li className="mb-2 font-weight-light text-capitalize">Bash</li>
                   <li className="mb-2 font-weight-light text-capitalize">Git, Github & GitLab</li>
+                  <li className="mb-2 font-weight-light text-capitalize">Windows, macOS & Ubuntu</li>
                   <li className="mb-2 font-weight-light text-capitalize">Docker</li>
                   <li className="mb-2 font-weight-light text-capitalize">Postman</li>
                   <li className="mb-2 font-weight-light text-capitalize">MongoDB</li>
+                  <li className="mb-2 font-weight-light text-capitalize">Figma</li>
                   <li className="mb-2 font-weight-light text-capitalize">Jira Confluence</li>
                   <li className="mb-5 font-weight-light text-capitalize">windows remote desktop</li>
                 </ul>
