@@ -48,7 +48,7 @@ const About = () => {
                   </a>{' '}
                   building apps for the web with some awesome people. I started my journey as a
                   technology consultant and as I dwell deeper into the technology world, I decided
-                  to make a switch and become a software enginner!
+                  to make a switch and become a software engineer!
                 </p>
                 <p style={{ marginBottom: '20px' }} className="about-wrapper__info-text">
                   {paragraphTwo ||
