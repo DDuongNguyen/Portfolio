@@ -38,7 +38,7 @@ const Header = () => {
               href="mailto:duong.nguyen4991@gmail.com"
               target="_blank"
             >
-              {cta || ''}
+              {cta || '【Ｇｉｖｅ　Ｍｅ　Ｏｎｅ　Ｓｅｃｏｎｄ．　．　．】'}
             </a>
           </p>
         </Fade>
