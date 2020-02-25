@@ -187,7 +187,7 @@ const Contact = () => {
                   <Fade top duration={1000} delay={600} distance="30px">
                     <a
                       className="arrow-move text-white"
-                      href="https://github.com/DDuongNguyen/Purple-Rain"
+                      href="https://purple-rain.netlify.com"
                       target="_blank"
                     >
                       Purple Rain{' '}
